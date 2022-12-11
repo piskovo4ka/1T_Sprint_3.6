@@ -1,5 +1,12 @@
 # 1T_Sprint_3.6
 
+Вот, что в итоге получилось! 
+
+
+
+
+
+
 Практика. Airflow.
 1. Для того, чтобы использовать airflow локально, можно воспользоваться двумя способами:
      a. Установить непосредственно сам Airflow, инструкция: https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
