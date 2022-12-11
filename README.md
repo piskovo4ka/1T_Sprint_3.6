@@ -2,6 +2,8 @@
 
 Вот, что в итоге получилось! 
 
+![alt text]https://github.com/piskovo4ka/1T_Sprint_3.6/blob/main/img/2022-12-11_07-12-53.png
+
 
 
 
