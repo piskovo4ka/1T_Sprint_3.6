@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  postgres:
+    extends:
+      file: compose/postgres.yml
+      service: postgres
+
+  pgadmin:
+    extends:
+      file: compose/pgadmin.yml
+      service: pgadmin
+
+volumes:
+  postgres-data:
+  pgadmin:
+
+networks:
+  postgres:
+    driver: bridge
