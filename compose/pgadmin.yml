@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  pgadmin:
+#    container_name: pgadmin_container
+    image: dpage/pgadmin4:6.15
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "example@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "pgadmin"
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1G
+    networks:
+      - postgres
+    ports:
+      - "5050:80"
